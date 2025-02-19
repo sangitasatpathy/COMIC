@@ -1,0 +1,426 @@
+/* -----------------1399px------------------------ */
+@media screen and (max-width:1399px){
+    /* navbar */
+    .navbar .logo{
+        max-width: 140px;
+    }
+}
+/* -----------------------------1199px---------------------- */
+@media screen and (max-width:1199px){
+/* navbar */
+.nav-menu li{
+    padding-right: 15px;
+}
+/* banner */
+.banner h1{
+    font-size: 65px;   
+}
+.banner p{
+    font-size: 20px;
+}
+
+
+/* partners */
+.partners .card-img{
+    max-width: 320px;
+    min-height: 250px;
+}
+.partners #card2 img{
+    max-width: 650px;
+    min-height: 280px;
+  }
+  .partners p{
+    font-size: 14px;
+}
+
+/* order */
+.order .details{
+    text-align: center;
+}
+
+/* shipping */
+.shipping .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer */
+.top-footer .info-img{
+    max-width: 180px;
+}
+.top-footer a{
+    font-size: 14px;
+}
+
+
+}
+/* -----------------------------------1024px--------------------- */
+@media screen and (max-width:1024px){
+    /* navbar */
+    .navbar .logo{
+        max-width: 120px;
+    }
+    .nav-menu a{
+        font-size: 15px;
+        line-height: 1.2;
+    }
+    .navicons i{
+        margin-right: 7px;
+    }
+
+/* partners */
+.partners{
+    height: auto;
+}
+.partners .col60,
+.partners .col40{
+    max-width: 50%;
+    flex: 0 0 50%;
+    padding: 0 15px;
+}
+  .partners .col33{
+    max-width: 50%;
+  flex: 0 0 50%;
+  padding: 20 10px;
+  }
+  .partners #card2 img{
+    max-width: 400px;
+    min-height: 281px;
+  }
+  .partners .col33 .card-img{
+    max-width: 400px;
+    min-height: 281px;
+  } 
+
+
+}
+/* ------------------------------------991px----------------------- */
+@media screen and (max-width:991px){
+    /* navbar */
+    .navbar .logo{
+        max-width: 150px;
+    }
+    .navicons .fa-bars{
+        display: inline-block;
+    }
+    .navbar .nav-menu ul{
+        display: none;
+        position: absolute;
+        top: 78px;
+        right: -100%;
+        width: 100%;
+        padding: 20px 10px;
+        text-align: center;
+        background: linear-gradient(to left, rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+        transition: all 1s ease-in-out;
+        z-index: 50;
+    }
+    .navbar .nav-menu li{
+        padding: 6px 0;
+    }
+    .navbar .nav-menu a{
+        font-size: 18px;
+        font-weight: 500;
+        color: #fff;
+    }
+    .nav-menu .drop-list{
+        position: relative;
+        width: 100%;
+    }
+    .navbar .nav-menu ul.active{
+        right: 0;
+        display: block;
+    }
+
+    /* banner */
+    .banner{
+        background-position: center center;
+    }
+    .banner .col52{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .banner .details{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .banner p{
+        font-size: 24px;
+    }
+
+
+    /* partrners */
+    .partners .card-img{
+        max-width: 300px;
+        min-height: 250px;
+    }
+    .partners .col33 .card-img{
+        max-width: 300px;
+        min-height: 250px;
+      }
+      .partners #card2 img{
+        max-width: 360px;
+        min-height: 281px;
+      }
+
+      /* comic */
+      .comic{
+        height: auto;
+      }
+      .comic h2{
+        font-size: 42px;
+      }
+      .comic .col25{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 50%;
+        flex: 0 0 50%;
+        padding-bottom: 30px;
+      }  
+      
+
+
+}
+/* ---------------------------------------767px---------------------- */
+@media screen and (max-width:767px){
+    /* partners */
+    .partners .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   .partners .col40,
+   .partners .col60,
+   .partners .col33{
+    max-width: 100%;
+    flex: 0 0 100%;
+    padding-bottom: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .partners .card-img img{
+    max-width: 490px;
+    min-height: 280px;
+}
+
+/* comic */
+.comic p{
+    font-size: 18px;
+    text-align: center;
+}
+
+      /* footer */
+      .top-footer .col33{
+        max-width: 50%;
+        flex: 0 0 50%;
+        padding-bottom: 20px;
+    }
+    .top-footer #support{
+        justify-content: start;
+        align-items: start;
+    }
+
+}
+/* ---------------------------------------575px-------------------------- */
+@media screen and (max-width:575px){
+    /* banner */
+    .banner h1{
+        font-size: 50px;
+    }
+    .banner p{
+        font-size: 20px; 
+    }
+    .banner .btn{
+        padding: 20px 25px;
+    }
+
+
+    /* brands */
+    .brands .btn{
+        padding: 15px 20px;
+    }
+
+    /* shipping */
+    .shipping h3{
+        font-size: 45px;
+    }
+    .shipping .card-img{
+        max-width: 310px;
+        min-height: 360px;
+    }
+    .shipping .btn{
+        padding: 18px 22px;
+    }
+
+    /* comic */
+.comic h2{
+    font-size: 35px;
+}
+
+
+/* footer */
+.top-footer .info-img{
+    max-width: 200px;
+}
+footer{
+    height: auto;
+    background-position: center center;
+}
+.top-footer .part1{
+    display: flex;
+    flex-direction: column;
+}
+.top-footer .part1 ul{
+    padding-bottom: 25px;
+}
+.top-footer .col33{
+    max-width: 100%;
+    flex: 0 0 100%;
+    padding-bottom: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-footer #support{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-footer .foot-head{
+    font-size: 25px;
+}
+.top-footer a{
+    font-size: 20px;
+}
+.info-details{
+    font-size: 20px;
+    text-align: center;
+}
+}
+/* ------------------------------------480px----------------------------- */
+@media screen and (max-width:480px){
+    /* navbar */
+    .navbar .logo a{
+        max-width: 100px;
+    }
+
+        /* banner */
+        .banner h1{
+            font-size: 45px;
+        }
+        .banner p{
+            font-size: 18px; 
+        }
+        .banner .btn{
+            padding: 18px 22px;
+            font-size: 15px;
+        }
+
+        /* partners */
+        .partners .card-img img{
+            max-width: 300px;
+            min-height: 280px;
+        }
+        .partners #card2 img{
+            max-width: 300px;
+            min-height: 281px;
+          }
+
+          /* order */
+          .order .card{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+          .order .card-img{
+            max-width: 250px;
+            min-height: 300px;
+          }
+
+          /* shipping */
+          .shipping .card-img{
+            max-width: 250px;
+            min-height: 300px;
+        } 
+        
+            /* comic */
+            .comic h2{
+                font-size: 30px;
+            }
+          .comic .col25{
+            max-width: 100%;
+            flex: 0 0 100%;
+          }  
+
+          /* footer */
+          .top-footer a{
+            font-size: 16px;
+        }
+        .info-details{
+            font-size: 16px;
+        }
+}
+/* --------------------------------------350px------------------------------ */
+@media screen and (max-width:350px){
+    /* banner */
+    .banner h1{
+        font-size: 40px;
+    }
+
+            /* partners */
+
+            .partners h3{
+                font-size: 40px;
+            }
+            .partners h4{
+                font-size: 18px;
+            }
+            .partners .card-img img{
+                max-width: 260px;
+                min-height: 280px;
+            }
+            .partners #card2 img{
+                max-width: 260px;
+                min-height: 281px;
+              }
+              .partners .break-heading{
+                display: inline-block;
+              }
+
+              /* order */
+              .order h2{
+                font-size: 40px;
+              }
+              .order .card-img{
+                max-width: 210px;
+                min-height: 250px;
+              }
+          /* shipping */
+          .shipping h3{
+            font-size: 40px;
+          }
+          .shipping .details h4{
+            font-size: 17px;
+          }
+          .shipping .card-img{
+            max-width: 210px;
+            min-height: 250px;
+        } 
+        .shipping .btn{
+            padding: 12px 18px;
+        }
+
+
+
+
+}
